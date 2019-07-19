@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Raversy Media</title>
+        <link rel="stylesheet" href="assets/css/app.css">
+    </head>
+    <body>
+        <!-- header -->
+        <header id="header" uk-sticky="sel-target: .uk-navbar; cls-active: uk-navbar-sticky">
+            <nav class="uk-container" uk-navbar>
+                <div class="uk-navbar-left">
+                    <a href="#home" class="logo"><span>Raversy</span> Media</a>
+                </div>
+                <div class="uk-navbar-right">
+                    <a uk-navbar-toggle-icon href="#offcanvas" uk-toggle class="uk-navbar-toggle uk-hidden@m"></a>
+                    <ul class="uk-navbar-nav uk-visible@m" uk-scrollspy-nav="closest: li; scroll: true">
+                        <li><a href="#home" uk-scroll>Home</a></li>
+                        <li><a href="#courses" uk-scroll>Courses</a></li>
+                        <li><a href="#about" uk-scroll>About</a></li>
+                        <li><a href="#patreon" uk-scroll>Patreon</a></li>
+                        <li><a href="#youtube" uk-scroll>Youtube</a></li>
+                        <li><a href="#contact" uk-scroll>Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- end of header -->
+        
+        <!-- hero section -->
+        <section id="home" uk-height-viewport class="uk-background-secondary uk-flex-middle uk-flex uk-flex-wrap">
+            <div class="uk-container">
+                <div class="uk-width-4-5@s">
+                    <span id="small-header">Welcome to Raversy Media</span>
+                    <h2 class="uk-heading-large">Web Development & Tutorial Course</h2>
+                    <span id="small-border"></span>
+                </div>
+            </div>
+        </section>
+        <!-- end of hero section -->
+        
+        <!-- courses section -->
+        <section id="courses" uk-height-viewport="min-height: 100%">
+            <div id="subscribe">
+                <div class="uk-grid-medium" uk-grid>
+                    <div class="uk-width-2-3 uk-align-center uk-padding uk-margin-medium-top">
+                        <h3 class="uk-text-center">Get notified of our new courses</h3>
+                        <div class="uk-margin uk-text-center" uk-margin id="inputs" uk-height-match>
+                            <input class="uk-input" type="text" placeholder="Enter Your Email">
+                            <button class="uk-button uk-button-secondary">Go!</button>
+                        </div>
+                        <span id="disclaimer">Your email address will never be shared</span>
+                    </div>
+                </div>
+            </div>
+            <div id="course-heading" class="uk-background-secondary uk-text-center uk-padding-small uk-text-large">Latest
+            Medu Courses at Kes. 899</div>
+            <div uk-grid class="uk-grid-collapse uk-text-center uk-child-width-1-3@m">
+                <div class="uk-card uk-card-default">
+                    <div class="uk-card-media-top uk-inline">
+                        <img src="assets/images/course-angular.jpg" alt="">
+                        <button class="uk-button uk-button-success uk-position-bottom-right">Enroll</button>
+                    </div>
+                    <div class="uk-card-body uk-background-secondary">
+                        <span class="desc">Modern HTML and CSS</span>
+                    </div>
+                </div>
+                <div class="uk-card uk-card-default ">
+                    <div class="uk-card-media-top uk-inline">
+                        <img src="assets/images/course-bootstrap.jpg" alt="">
+                        <button class="uk-button uk-button-success uk-position-bottom-right">Enroll</button>
+                    </div>
+                    <div class="uk-card-body uk-background-gray">
+                        <span class="desc">Bootstrap 4</span>
+                    </div>
+                </div>
+                <div class="uk-card uk-card-default ">
+                    <div class="uk-card-media-top uk-inline">
+                        <img src="assets/images/course-html-css.jpg" alt="">
+                        <button class="uk-button uk-button-success uk-position-bottom-right">Enroll</button>
+                    </div>
+                    <div class="uk-card-body uk-background-secondary">
+                        <span class="desc">Modern HTML and CSS</span>
+                    </div>
+                </div>
+                <div class="uk-card uk-card-default ">
+                    <div class="uk-card-media-top uk-inline">
+                        <img src="assets/images/course-js.jpg" alt="">
+                        <button class="uk-button uk-button-success uk-position-bottom-right">Enroll</button>
+                    </div>
+                    <div class="uk-card-body uk-background-gray">
+                        <span class="desc">Front to Back JS</span>
+                    </div>
+                </div>
+                <div class="uk-card uk-card-default ">
+                    <div class="uk-card-media-top uk-inline">
+                        <img src="assets/images/course-mern.jpg" alt="">
+                        <button class="uk-button uk-button-success uk-position-bottom-right">Enroll</button>
+                    </div>
+                    <div class="uk-card-body uk-background-secondary">
+                        <span class="desc">Mern Stack</span>
+                    </div>
+                </div>
+                <div class="uk-card uk-card-default ">
+                    <div class="uk-card-media-top uk-inline">
+                        <img src="assets/images/course-php.jpg" alt="">
+                        <button class="uk-button uk-button-success uk-position-bottom-right">Enroll</button>
+                    </div>
+                    <div class="uk-card-body uk-background-gray">
+                        <span class="desc">PHP OOP & MVC</span>
+                    </div>
+                </div>
+                <div class="uk-card uk-card-default ">
+                    <div class="uk-card-media-top uk-inline">
+                        <img src="assets/images/course-react-2019.jpg" alt="">
+                        <button class="uk-button uk-button-success uk-position-bottom-right">Enroll</button>
+                    </div>
+                    <div class="uk-card-body uk-background-secondary">
+                        <span class="desc">React Dev</span>
+                    </div>
+                </div>
+                <div class="uk-card uk-card-default ">
+                    <div class="uk-card-media-top uk-inline">
+                        <img src="assets/images/js.jpg" alt="">
+                        <button class="uk-button uk-button-success uk-position-bottom-right">Enroll</button>
+                    </div>
+                    <div class="uk-card-body uk-background-gray">
+                        <span class="desc">Modern JS Bootcamp</span>
+                    </div>
+                </div>
+                <div class="uk-card uk-card-default ">
+                    <div class="uk-card-media-top uk-inline">
+                        <img src="assets/images/course-django.jpg" alt="">
+                        <button class="uk-button uk-button-success uk-position-bottom-right">Enroll</button>
+                    </div>
+                    <div class="uk-card-body uk-background-secondary">
+                        <span class="desc">Django Dev 2 Deployment</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of courses section -->
+        
+        <!-- about section -->
+        <section id="about" uk-height-viewport="min-height: 100%">
+            <div class="uk-container uk-margin-medium-bottom">
+                <div class="uk-section uk-padding uk-margin-large-top">
+                    <div class="uk-align-center uk-width-2-3@m  uk-padding">
+                        <div class="uk-width-2-3@m  uk-align-center">
+                            <h3 class="uk-text-center uk-text-bold uk-heading-large">About Raversy Media</h3>
+                        </div>
+                        <p class="uk-text-center uk-text-large">Bonge is the founder of Raversy Media and the instructor of most of the tutorials and courses</p>
+                    </div>
+                </div>
+                <div class="uk-section uk-grid-small uk-child-width-1-2@m uk-height-match uk-padding-small" uk-grid>
+                    <div id="photo" class="uk-align-center">
+                        <img data-src="https://images.unsplash.com/photo-1532437698276-c2ac365e7147?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" width="" height="" class="uk-border-circle uk-align-center" uk-img>
+                        <button class="uk-button uk-button-primary uk-margin-small-top"><span uk-icon="youtube" class="uk-margin-small-right uk-text-middle uk-flex-first"></span>Watch my courses on Blutube</button>
+                    </div>
+                    <article id="article" class="uk-align-center">
+                        <p class="uk-text-emphasis uk-text-middle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam dolorum, dolore dolorem explicabo ipsa harum itaque totam hic, voluptatibus, nobis commodi repellendus fugit perferendis ullam. Nostrum inventore molestiae ullam quisquam autem ratione qui ut consequuntur aut nihil, eius, iste dolorum alias nobis ipsam magni dolores unde laboriosam ea cumque perspiciatis itaque reprehenderit praesentium, laborum. </p>
+                        <br>
+                        <p class="uk-text-middle uk-text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto asperiores dicta eos eius. Maiores, dolorum, recusandae. Sint dolor officiis, explicabo eos in quod magnam nesciunt earum nulla quibusdam ratione, maxime.</p>
+                    </article>
+                </div>
+            </div>
+            <div id="social">
+                <div class="uk-container uk-padding">
+                    <div class="uk-width-1-2@m uk-align-center">
+                        <h4 class="uk-text-center ">Follow Me</h4>
+                        <div class="uk-flex uk-flex-center">
+                            <ul class="uk-iconnav uk-text-center">
+                                <li class=""><a href="" uk-icon="icon: facebook;"></a></li>
+                                <li class=""><a href="" uk-icon="icon: twitter; "></a></li>
+                                <li class=""><a href="" uk-icon="icon: instagram; "></a></li>
+                                <li class=""><a href="" uk-icon="icon: linkedin; "></a></li>
+                                <li class=""><a href="" uk-icon="icon: github-alt;"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of about button  -->
+        
+        <!-- patreon section -->
+        <section id="patreon" class="uk-flex uk-flex-middle uk-flex-center uk-flex-wrap uk-flex-column uk-height-1-1">
+            <div class="overlay">
+                <div class="uk-container uk-padding">
+                    <div class="uk-child-width-1-2@m uk-grid-small uk-grid-match uk-margin-medium-top" uk-grid>
+                        <div>
+                            <div class="uk-card uk-card-body uk-padding">
+                                <h3 class="uk-card-title">Become a patreon</h3>
+                                <p>Bonge spends most of his time making free educational videos on YouTube to share with the world. Join his Patreon to show your support and gratitude. Even Kes109 per month means the world. Free course tiers are available </p>
+                                <hr>
+                                <button class="uk-margin-medium-small uk-button-primary uk-button">Become a patreon</button>
+                                <span class="small-border uk-position-bottom"></span>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="uk-card uk-card-body">
+                                <h3 class="uk-card-title">Top Tier Patrons</h3>
+                                <ul class="uk-list">
+                                    <li><span>Random Boy: </span> Checkout his <a href="">YouTube channel</a></li>
+                                    <li></a></li>
+                                    <li><span>Gushudo Peng: </span> <a href="">In need of a SEO & Web Design?</a></li>
+                                </ul>
+                                <hr>
+                                <p>Thank you so much for your support. For more info on how to get your name placed here, visit <a href="">my Patreon</a></p>
+                                <span class="small-border uk-position-bottom"></span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of patreon section -->
+        
+        <!-- youtube section -->
+        <section id="youtube" uk-height-viewport="min-height: 100%">
+            <div class="uk-container uk-section ">
+                <div class="uk-grid-small uk-child-width-1-1 uk-margin-medium-top" uk-grid>
+                    <span class="uk-text-center" uk-icon="icon: youtube; ratio: 4"></span>
+                    <h3 class="uk-text-center uk-text-uppercase">Youtube Crash Courses</h3>
+                    <p class="uk-text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores obcaecati animi, veniam!</p>
+                    <p class="uk-text-center">Check out my channel for much more..</p>
+                </div>
+                <div class="uk-grid-medium uk-child-width-1-4@m uk-child-width-1-2@s  uk-margin-medium-top" uk-grid>
+                    <div>
+                        <div class="uk-card uk-card-default">
+                            <div class="uk-card-media-top">
+                                <img src="https://placeimg.com/640/480/any" alt="" uk-img>
+                            </div>
+                            <div class="uk-card-body">
+                                <p class="uk-text-center">React Js Course 2020</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-card uk-card-default">
+                            <div class="uk-card-media-top">
+                                <img src="https://placeimg.com/640/480/animals" alt="" uk-img>
+                            </div>
+                            <div class="uk-card-body">
+                                <p class="uk-text-center">Web Development Crash Course</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-card uk-card-default">
+                            <div class="uk-card-media-top">
+                                <img src="https://placeimg.com/640/480/tech" alt="" uk-img>
+                            </div>
+                            <div class="uk-card-body">
+                                <p class="uk-text-center">PHP Crash Course</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-card uk-card-default">
+                            <div class="uk-card-media-top">
+                                <img src="https://placeimg.com/640/480/sepia" alt="" uk-img>
+                            </div>
+                            <div class="uk-card-body">
+                                <p class="uk-text-center">JSON Tutorial</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-card uk-card-default">
+                            <div class="uk-card-media-top">
+                                <img src="https://placeimg.com/640/480/people" alt="" uk-img>
+                            </div>
+                            <div class="uk-card-body">
+                                <p class="uk-text-center">Django Crash Course</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-card uk-card-default">
+                            <div class="uk-card-media-top">
+                                <img src="https://placeimg.com/640/480/arch" alt="" uk-img>
+                            </div>
+                            <div class="uk-card-body">
+                                <p class="uk-text-center">Javascript (ES6) Course</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <div class="uk-card uk-card-default">
+                            <div class="uk-card-media-top">
+                                <img src="https://placeimg.com/640/480/grayscale" alt="" uk-img>
+                            </div>
+                            <div class="uk-card-body">
+                                <p class="uk-text-center">HTML Crash Course</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-card uk-card-default">
+                            <div class="uk-card-media-top">
+                                <img src="https://placeimg.com/640/480/nature" alt="" uk-img>
+                            </div>
+                            <div class="uk-card-body">
+                                <p class="uk-text-center">CSS3 Crash Course</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of youtube section -->
+        <div id="stats" class="uk-section">
+            <div class="uk-container">
+                <div class="uk-flex uk-flex-center uk-flex-middle">
+                    <div class="uk-grid-small uk-child-width-1-4@m " uk-grid>
+                        <div class="uk-padding uk-text-center">
+                            <div>
+                                <span class="num uk-display-block">650</span>
+                                <span class="uk-inline-block stat-desc">Youtube Videos</span>
+                            </div>
+                        </div>
+                        <div class="uk-padding uk-text-center">
+                            <div>
+                                <span class="num uk-display-block">69000</span>
+                                <span class="uk-inline-block stat-desc">Subscribers</span>
+                            </div>
+                        </div>
+                        <div class="uk-padding uk-text-center">
+                            <div>
+                                <span class="num uk-display-block">999</span>
+                                <span class="uk-inline-block stat-desc">Daily Subs</span>
+                            </div>
+                        </div>
+                        <div class="uk-padding uk-text-center">
+                            <div>
+                                <span class="num uk-display-block">5205000</span>
+                                <span class="uk-inline-block stat-desc">Video views</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- contact section -->
+        <section id="contact">
+            <div class="uk-child-width-1-2@m uk-grid-match uk-grid-collapse" uk-grid>
+                <div class="uk-section" id="grey-bg">
+                    <div class="uk-width-4-5 uk-align-center uk-padding ">
+                        <div class="uk-flex uk-flex-center ">
+                            <div class="uk-grid-match uk-grid-collapse uk-box-shadow-large" uk-grid>
+                                <div class="uk-width-1-5">
+                                    <img src="/assets/images/contact.jpg" uk-img>
+                                </div>
+                                <div class="uk-width-4-5">
+                                    <div class="uk-card uk-card-body uk-padding">
+                                        <p id="email" class="uk-align-left">E-mail: <span>support@raversymedia.ke</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="uk-section" id="white-bg">
+                    <div class="uk-width-2-3 uk-align-center">
+                        <h3 class="uk-heading-medium">Sponsors</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis esse corporis quasi maxime, facere suscipit aspernatur magnam.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of contact section -->
+        
+        <!-- footer -->
+        <footer>
+            <div class="uk-container">
+                <div class="uk-section">
+                    <nav uk-navbar class="">
+                        <div class="uk-navbar-left">
+                            <img data-src="/assets/images/r4.png" class="uk-border-circle" uk-img>
+                        </div>
+                        <div class="uk-navbar-right">
+                            <ul class="uk-iconnav">
+                                <li><a href="#" uk-icon="icon: facebook; ratio: 1"></a></li>
+                                <li><a href="#" uk-icon="icon: twitter; ratio: 1"></a></li>
+                                <li><a href="#" uk-icon="icon: instagram; ratio: 1"></a></li>
+                                <li><a href="#" uk-icon="icon: linkedin; ratio: 1"></a></li>
+                                <li><a href="#" uk-icon="icon: github; ratio: 1"></a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <hr>
+                    <p class="uk-text-center uk-margin-medium-top uk-padding-medium-small">&copy; 2019 Raversy Media.All Rights Reserved.</p>
+                </div>
+            </div>
+        </footer>
+        <!-- end of footer -->
+        <!-- scroll button -->
+        <a href="#" id="scrollBtn" uk-scroll class="uk-position-bottom-right uk-position-fixed" uk-icon="icon: chevron-up"></a>
+        <!-- end of scroll btn -->
+        
+        <!-- This is the off-canvas -->
+        <div id="offcanvas" class="uk-hidden@s" uk-offcanvas="overlay: true; mode: reveal; flip: true">
+            <div class="uk-offcanvas-bar uk-flex uk-flex-center uk-flex-middle">
+                <button class="uk-offcanvas-close" type="button" uk-close></button>
+                <ul class="uk-nav uk-nav-default uk-nav-center">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#patreon">Patreon</a></li>
+                    <li><a href="#youtube">Youtube</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <script src="assets/js/uikit.min.js"></script>
+        <script src="assets/js/uikit-icons.min.js"></script>
+        <script src="assets/js/app.js"></script>
+    </body>
+</html>
